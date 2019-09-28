@@ -9,3 +9,6 @@ Today’s android challenge is to write an android application that contains two
 5. When Activity A button is clicked, it will navigate to Activity B and display the generated random number on Activity B TextView widget.
 6. When the Button widget on Activity B is clicked, it will generate a new random numbers and display it on the TextView on Activity A.
 7. The Activity A button text is “Activity A Button“ while Activity B is “Activity B Button“.
+
+## Task screenshot
+![](https://inducesmile.com/wp-content/uploads/2016/11/task1.jpg)
