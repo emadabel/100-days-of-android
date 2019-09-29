@@ -16,3 +16,4 @@ This repository include all projects for this challenge. I will update it daily 
 
 ## Projects
 - Day 1 challenge: Working with activities.
+- Day 2 challenge: Simple login form.
