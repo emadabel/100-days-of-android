@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">Day 3 of 100</string>
+
+    <string-array name="array_spinner">
+        <item />
+        <item>Option 1</item>
+        <item>Option 2</item>
+        <item>Option 3</item>
+        <item>Option 4</item>
+        <item>Option 5</item>
+        <item>Option 6</item>
+        <item>Option 7</item>
+        <item>Option 8</item>
+        <item>Option 9</item>
+    </string-array>
 </resources>
