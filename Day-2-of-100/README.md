@@ -1,4 +1,4 @@
-# DAY 1 CHALLENGE
+# DAY 2 CHALLENGE
 Today’s challenge is to write an android application that will have two activities – Activity A and B.
 
 Activity A will contain two EditText widgets for email and password and a button widget. When a user inputs email and password and click the button, whatever the user has inputted will be displayed on Activity B on a TextView widgets.
