@@ -19,3 +19,4 @@ This repository include all projects for this challenge. I will update it daily 
 - Day 2 challenge: Simple login form.
 - Day 3 challenge: Populate android spinner from a String-Array.
 - Day 4 challenge: Android Seekbar.
+- Day 5 challenge: Android RadioGroup.
