@@ -1,9 +1,7 @@
-# DAY 7 CHALLENGE
-Today’s android challenge is to write an android application that contains a single ImageView and a Button
+# DAY 8 CHALLENGE
+Today’s android challenge is to write an android application with two activities – Activity A and B.
 
-Display an image using ImageView
-
-Use Button click event to show and hide the display image.
+Activity A will contain two EditText widgets for username and password and a button widget. When a user inputs username and password and click the button, it validates against stored data in the shared prefernces, if it matches start Activity B.And display the username with welcome message and Logout Button.
 
 ## Task requirements
 1. Create a launch or intro Activity A.

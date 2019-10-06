@@ -23,3 +23,4 @@ This repository include all projects for this challenge. I will update it daily 
 - Day 6 challenge: Android CheckBox.
 - Day 7 challenge: Android ImageView.
 - Day 8 challenge: Login and Logout using Shared Preferences.
+- Day 9 challenge: Populate android spinner from a Database.
