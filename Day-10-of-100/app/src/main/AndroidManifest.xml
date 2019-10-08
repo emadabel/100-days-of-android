@@ -16,6 +16,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <provider
+            android:authorities="com.example.day10of100"
+            android:name=".data.UsersContentProvider"
+            android:exported="false" />
     </application>
 
 </manifest>
