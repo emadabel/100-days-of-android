@@ -27,3 +27,4 @@ This repository include all projects for this challenge. I will update it daily 
 - Day 10 challenge: Android Content Providers.
 - Day 11 challenge: Load image from Url (internet).
 - Day 12 challenge: Android RecyclerView.
+- Day 13 challenge: Parsing JSON.
