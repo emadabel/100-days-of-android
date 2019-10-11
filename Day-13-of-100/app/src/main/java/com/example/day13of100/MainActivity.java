@@ -17,18 +17,23 @@ public class MainActivity extends AppCompatActivity {
         new GetJsonTask().execute();
     }
 
-    private class GetJsonTask extends AsyncTask<Void, Void, User> {
+    private class GetJsonTask extends AsyncTask<Void, Void, List<User>> {
 
         @Override
-        protected User doInBackground(Void... voids) {
+        protected List<User> doInBackground(Void... voids) {
             String jsonData;
             try {
                 jsonData = NetworkUtils.getJsonFromUrl(NetworkUtils.BASE_URL);
-                List<User> userList = JsonUtils.parseJsonFromString(jsonData);
+                return JsonUtils.parseJsonFromString(jsonData);
             } catch (Exception e) {
                 Log.e("GET_JSON_ERROR", e.getMessage());
+                return null;
             }
-            return null;
+        }
+
+        @Override
+        protected void onPostExecute(List<User> users) {
+            super.onPostExecute(users);
         }
     }
 }
