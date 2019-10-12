@@ -4,6 +4,7 @@ import android.os.AsyncTask;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.widget.ListView;
 
 import java.util.List;
 
@@ -33,7 +34,9 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         protected void onPostExecute(List<User> users) {
-            super.onPostExecute(users);
+            UsersAdapter adapter = new UsersAdapter(getBaseContext(), users);
+            ListView lvUsers = findViewById(R.id.list_users);
+            lvUsers.setAdapter(adapter);
         }
     }
 }
