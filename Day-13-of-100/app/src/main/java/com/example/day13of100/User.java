@@ -1,5 +1,7 @@
 package com.example.day13of100;
 
+import android.support.annotation.NonNull;
+
 public class User {
     private int id;
     private String name;
@@ -9,6 +11,7 @@ public class User {
     private String phone;
     private String website;
     private Company company;
+    private String objToJson;
 
     public User() {}
 
@@ -21,6 +24,14 @@ public class User {
         this.phone = phone;
         this.website = website;
         this.company = company;
+    }
+
+    public String getObjToJson() {
+        return objToJson;
+    }
+
+    public void setObjToJson(String objToJson) {
+        this.objToJson = objToJson;
     }
 
     public int getId() {

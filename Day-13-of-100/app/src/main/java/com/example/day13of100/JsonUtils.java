@@ -63,6 +63,7 @@ public class JsonUtils {
                 user.setPhone(jsonObject.getString(USER_PHONE));
                 user.setWebsite(jsonObject.getString(USER_WEBSITE));
                 user.setCompany(company);
+                user.setObjToJson(jsonObject.toString());
 
                 userList.add(user);
             }
