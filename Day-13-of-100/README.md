@@ -9,4 +9,4 @@ When select item from ListView open another Activity(Details Activity) and show 
 3. When select item from the list a new activity start with comeplete details for selected user.
 
 ## Task screenshot
-![](./screenshots/day-13-challenge.png)
+![](./screenshots/day-13-challenge-1.png)   |   ![](./screenshots/day-13-challenge-2.png)
