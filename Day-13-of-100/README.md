@@ -6,7 +6,7 @@ When select item from ListView open another Activity(Details Activity) and show 
 ## Task requirements
 1. Parse JSON data from this link: `https://jsonplaceholder.typicode.com/users`
 2. The application have two activities, The MainActivity have a ListView widget that show username and email from JSON objects.
-3. When select item from the list a new activity start with comeplete details for selected user.
+3. When select item from the list a new activity start with complete details for selected user.
 
 ## Task screenshot
 ![](./screenshots/day-13-challenge-1.png)   |   ![](./screenshots/day-13-challenge-2.png)
