@@ -25,3 +25,10 @@ allprojects {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+
+ext {
+    roomVersion = '1.1.1'
+    archLifecycleVersion = '1.1.1'
+    coreTestingVersion = '1.1.1'
+    materialVersion = '28.0.0'
+}
