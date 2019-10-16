@@ -29,3 +29,4 @@ This repository include all projects for this challenge. I will update it daily 
 - Day 12 challenge: Android RecyclerView.
 - Day 13 challenge: Parsing JSON.
 - Day 14 challenge: Android Architecture Components.
+- Day 15 challenge: Android Translation App.
