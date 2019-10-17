@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Day 15 of 100</string>
+    <string name="title_activity_list_translation">ListTranslationActivity</string>
 </resources>
